@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import logo from '../assets/img/logo.svg';
+import React, { Component } from 'react'
 import GameScreen from './game/containers/GameScreen'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <GameScreen />
-    );
+    )
   }
 }
 
-export default App;
+export default App
